@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{1BA78065-2613-444E-A3BA-D5BDD672D59F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{5A676FA4-A47F-488E-B931-668B6D9C2FEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeorVer", "Factorial\TeorVer.csproj", "{5A676FA4-A47F-488E-B931-668B6D9C2FEB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSD", "NSD\NSD.csproj", "{953DFF49-8EF7-4F0C-911E-786F745E01A7}"
 EndProject
