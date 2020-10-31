@@ -15,15 +15,25 @@ namespace Test
             Console.WriteLine(codeString, "\t", "\n", "{", "}", "\"", "\\", codeString);
 
             Console.ReadLine();
-
+            char[] QuineArray = codeString.ToCharArray();
             if (codeString.IndexOf(searchedValue, 0, codeString.Length) >= 0)
             {
-               
+                var replacement = codeString.Replace(searchedValue, substitution);
+                Console.WriteLine(ReverseString(replacement));
+
+                Console.ReadLine();
             }
             else 
             {
                 
             }
+        }
+
+        public static string ReverseString(string s)
+        {
+            char[] arr = s.ToCharArray();
+            Array.Reverse(arr);
+            return new string(arr);
         }
     }
 }

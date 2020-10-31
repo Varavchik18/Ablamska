@@ -1,26 +1,18 @@
 ﻿using System;
 
-class Program
+namespace Factorial
 {
-    public static int Main()
+    class Program
     {
-        Console.Write("Введите число : ");
-        int num = int.Parse(Console.ReadLine());
-        int factorial = 1;
-        for (int i = 1; i <= num; i++)
+        public static int Main()
         {
-            factorial *= i;
-            if (i == num)
-            {
-                Console.Write("{0}", i);
-            }
-            else
-            {
-                Console.Write("{0} * ", i);
-            }
+            TestMath Algorithm = new TestMath();
+            Algorithm.CallInterface();
+
+            Console.ReadLine();
+
+
+            return 0;
         }
-        Console.Write(" = {0}", factorial);
-        Console.ReadKey();
-        return 0;
     }
 }
