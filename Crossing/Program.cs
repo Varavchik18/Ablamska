@@ -25,7 +25,8 @@ namespace Test
             }
             else 
             {
-                
+                Console.WriteLine(ReverseString(codeString));
+                Console.ReadLine();
             }
         }
 

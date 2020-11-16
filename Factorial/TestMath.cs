@@ -52,7 +52,13 @@ namespace Factorial
 
                     CallInterface();
                     break;
+                case 8:
+                    Console.WriteLine("Вариация = "+ FindVariation());
+                    break;
 
+                case 9:
+                    Console.WriteLine("coVariation = "+ FindCoVariation());
+                    break;
                 default:
                     Environment.Exit(1);
                     break;
@@ -121,6 +127,32 @@ namespace Factorial
             
             return value_Q;
         }
+
+        //public double FindVariation()
+        //{
+        //    double Variation=0;
+
+        //    double Sqrsum = 0;
+
+        //    for (int i=0; i<ValueList.Count;i++)
+        //    {
+        //        Sqrsum += Math.Pow(ValueList[i], 2);
+        //    }
+
+        //    Variation = Sqrsum / ValueList.Count - Math.Pow(FindMean(),2);
+
+        //    return Variation;
+        //}
+
+        //public double FindCoVariation()
+        //{
+        //    double CoVariation = 0;
+
+        //    double sumValues = FindSumList();
+        //    CoVariation = sumValues / ValueList.Count - FindMean();
+
+        //    return CoVariation;
+        //}
 
 
         public void SortList() {
